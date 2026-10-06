@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Iiwake Generator</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header_inner">
+      <h1>Iiwake Generator</h1>
+      <p>You can overcome your crisis with this site.</p>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <section class="intro">
+      <h2>Let's Generate Iiwake!!</h2>
+
+      <p>
+        Do you find it difficult to come up with an excuse?<br>
+        In that case, just press this button!。
+      </p>
+    </section>
+
+
+    <section class="generator">
+
+      <div class="generator_card">
+
+        <div class="result_area">
+          <p class="result_label">YOUR Iiwake</p>
+
+          <div id="display_iiwake">
+            <span>The Iiwake will be displayed here.</span>
+          </div>
+        </div>
+
+
+        <button class="generate_button" onclick="generateIiwake()">
+          Generate Iiwake ！！
+        </button>
+        <button class="copy_button" onclick="copyIiwake()">
+          Copy Iiwake！！
+        </button>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <p>© 2026 Iiwake Generator</p>
+
+    <p class="warning">
+      ※This site assumes no responsibility for any issues arising from the use of the generated excuses. <br>
+      ※The excuses are retrieved via the excuse API.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

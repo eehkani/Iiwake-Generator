@@ -12,5 +12,5 @@ const copyIiwake = async () => {
 
   await navigator.clipboard.writeText(iiwake);
 
-  alert("言い訳をコピーしました！");
+  alert("copy clipboard!!");
 };
